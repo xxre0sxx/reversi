@@ -1,7 +1,7 @@
 var static = require('node-static');
 var http = require('http');
 var port = process.env.PORT;
-var directory = __dirname + 'public';
+var directory = __dirname + '/public';
 if(typeof port == 'undefined' || !port){
 	directory = './public';
 	port = 8080;
